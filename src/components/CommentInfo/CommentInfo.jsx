@@ -1,13 +1,7 @@
 import React from "react";
-import { useEffect } from "react";
-
 
 export const CommentInfo = ({comment}) => {
-    useEffect(()=>{
-        console.log('comment: ',comment)
-        
-    },[])
-
+ 
 
     return (
         <div className="CommentInfo">
